@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-  --color1: #333;
-  --color1hover: #f2f2f2;
+  --color1: #000;
+  --color1hover: #333;
 }
 
 * {
@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: helvetica;
-  bord5er: 1px solid;
+  /* border: 1px solid; */
 }
 
 html,
@@ -19,7 +19,22 @@ body {
   height: 100%;
 }
 
-.wrap-max-with{
+.logo {
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+.logo img{
+  margin: auto;
+  width: 50%;
+}
+
+
+
+
+.wrap-max-with {
   margin: 20px auto;
   width: 90%;
   max-width: 1200px;
