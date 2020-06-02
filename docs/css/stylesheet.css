@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: helvetica;
-  /* border: 1px solid; */
+  /* border: 1px solid white; */
 }
 
 html,
@@ -19,18 +19,31 @@ body {
   height: 100%;
 }
 
-.logo {
-  margin: auto;
-  width: 100%;
-  max-width: 300px;
-  overflow: hidden;
-  text-align: center;
-}
-.logo img{
-  margin: auto;
-  width: 50%;
+.bgblack {
+  background: var(--color1);
 }
 
+/* index.html */
+.welcome {
+  margin: auto;
+  margin-top: 10%;
+  width: 75%;
+  max-width: 300px;
+  text-align: center;
+  display: table;
+  height: 100%;
+}
+
+.welcome div {
+  display: table-row;
+  vertical-align: middle;
+}
+
+.welcome div img {
+  width: 100%;
+}
+
+/* fine index.html */
 
 
 
@@ -174,6 +187,7 @@ header {
 
 /* END GALLERY */
 
+/* 
 footer {
   position: static;
   display: block;
@@ -182,3 +196,4 @@ footer {
   height: 200px;
   background: #ccc;
 }
+*/
