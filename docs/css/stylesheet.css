@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: helvetica;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 html,
@@ -27,7 +27,7 @@ body {
 .welcome {
   margin: auto;
   padding-top: 10%;
-  width: 75%;
+  width: 70%;
   max-width: 300px;
   text-align: center;
   display: table;
@@ -44,11 +44,12 @@ body {
 }
 
 .welcome div img {
-  width: 100%;
+  width: 90%;
 }
 
 .welcome button {
-  padding: 10px 50px;
+  width: 60%;
+  padding: 10px 0;
 }
 /* fine index.html */
 
