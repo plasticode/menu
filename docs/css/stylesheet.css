@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: helvetica;
-  /* border: 1px solid white; */
+  border: 1px solid white;
 }
 
 html,
@@ -26,7 +26,7 @@ body {
 /* index.html */
 .welcome {
   margin: auto;
-  margin-top: 10%;
+  padding-top: 10%;
   width: 75%;
   max-width: 300px;
   text-align: center;
@@ -39,13 +39,22 @@ body {
   vertical-align: middle;
 }
 
+.welcome .title img {
+  width: 75%;
+}
+
 .welcome div img {
   width: 100%;
 }
 
+.welcome button {
+  padding: 10px 50px;
+}
 /* fine index.html */
 
+/* cover */
 
+/* fine cover */
 
 .wrap-max-with {
   margin: 20px auto;
