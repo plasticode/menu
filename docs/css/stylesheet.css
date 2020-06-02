@@ -2,7 +2,7 @@
 
 :root {
   --color1: #000;
-  --color1hover: #333;
+  --color2: #333;
 }
 
 * {
@@ -15,15 +15,16 @@
 
 html,
 body {
+  background: var(--color2);
   width: 100%;
   height: 100%;
 }
 
+/* index.html */
 .bgblack {
   background: var(--color1);
 }
 
-/* index.html */
 .welcome {
   margin: auto;
   padding-top: 10%;
@@ -54,6 +55,15 @@ body {
 /* fine index.html */
 
 /* cover */
+header {
+ text-align: center;
+}
+
+header .logo img{
+  margin: auto;
+  width: 50%;
+}
+
 
 /* fine cover */
 
