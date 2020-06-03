@@ -24,26 +24,52 @@
 
   </head>
   <body>
-
+    <header>
+      <nav class="hamburgher"></nav>
+      <div class="logo"><img src="imgs/eat-rock-cafe-brand-small.png" alt=""></div>
+    </header>
+    
     <main>
+      
+      <h1>Panino</h1>
+      <h3>Completa il tuo panino con l'ingredienti preferiti</h3>
+      
       <form class="" action="send.php" method="post">
 
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                Panino
-              </td>
-              <td>
-                checkbox
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <input type="radio" name="panino" id="classico">
+          <label for="classico">Classico</label>
+          <input type="radio" name="panino" id="sesamo">
+          <label for="sesamo">Al sesamo</label>
+          <input type="radio" name="panino" id="piastrato">
+          <label for="piastrato">Piastrato</label>
+        </div>
 
-        <button type="button" name="button"></button>
+        <p>Consigliamo che i nostri panini vengano serviti a temperatura ambiente per non alterare le caratteristiche e la qualità</p>
+
+        <h2>Carne</h2>
+
+        <h3>Pezzata Rossa</h3>
+
+        <div>
+          <input type="radio" name="carne" id="pezzata_r_singolo">
+          <label for="pezzata_r_singolo">Hamburger gr 180</label>
+          <input type="radio" name="carne" id="pezzata_r_doppio">
+          <label for="pezzata_r_doppio">Doppio Hamburger <br>gr 180+180</label>
+        </div>
+
+        <h3>Black Angus IGP</h3>
+
+        <div>
+          <input type="radio" name="carne" id="angus_singolo">
+          <label for="angus_singolo">Hamburger gr 200</label>
+          <input type="radio" name="carne" id="angus_doppio">
+          <label for="angus_doppio">Doppio Hamburger <br>gr 200+200</label>
+        </div>
+
+        <button type="button" name="button">button</button>
       </form>
     </main>
-
+    <!-- <script src="js/script.js" charset="utf-8"></script> -->
   </body>
 </html>
