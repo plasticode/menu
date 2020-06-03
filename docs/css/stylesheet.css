@@ -20,6 +20,11 @@ body {
   height: 100%;
 }
 
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 /* index.html */
 .bgblack {
   background: var(--color1);
