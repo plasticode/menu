@@ -104,11 +104,11 @@ header .logo img {
   font-weight: bold;
   text-decoration: none;
   background-color: rgb(173, 185, 181);
-  position: relative;
+  position: absolute;
   width: 80%;
-  margin: auto;
   padding: 15px;
-  top: 70%;
+  left: 10%;
+  bottom: 10px;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -142,7 +142,7 @@ input[type="radio"] {
   display: none;
 }
 
-label {
+.form-table, label {
   display: block;
   margin: 10px auto;
   width: 80%;
@@ -150,6 +150,7 @@ label {
   font-size: 5vw;
   border: 2px solid;
   border-radius: 10px;
+  text-align: center;
 }
 
 input[type="radio"]:checked+label {
