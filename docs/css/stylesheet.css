@@ -152,7 +152,9 @@ label {
   border-radius: 10px;
 }
 
-input[type="radio"]:checked +label{
+input[type="radio"]:checked+label {
   background-color: var(--color1);
+  border-color: var(--color1);
 }
+
 /* fine panino list */
