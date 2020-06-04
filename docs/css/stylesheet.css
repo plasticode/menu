@@ -3,6 +3,8 @@
 :root {
   --color1: #000;
   --color2: #333;
+  --color3: #08C;
+  --color4: #0C6;
 }
 
 * {
@@ -89,29 +91,29 @@ header .logo img {
 
 /* table */
 .wrap_table {
-  position: relative;
+  position: absolute;
   width: 80%;
-  margin: auto;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
 }
 
 .btn_table {
   display: block;
+  margin: center;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
   background-color: rgb(173, 185, 181);
-  position: absolute;
+  position: relative;
   width: 80%;
   padding: 15px;
-  left: 10%;
-  bottom: 10px;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
 }
 
 /* fine table */
@@ -138,11 +140,13 @@ main {
 /* fine cover */
 
 /* panino list */
-input[type="radio"] {
+input[type="radio"],
+input[type="checkbox"] {
   display: none;
 }
 
-.form-table, label {
+.form-table,
+label {
   display: block;
   margin: 10px auto;
   width: 80%;
@@ -154,8 +158,16 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked+label {
-  background-color: var(--color1);
-  border-color: var(--color1);
+  background-color: var(--color3);
+  border-color: var(--color3);
 }
+
+/* verdure */
+input[type="checkbox"]:checked+label {
+  background-color: var(--color4);
+  border-color: var(--color4);
+  color:var(--color1);
+}
+
 
 /* fine panino list */
