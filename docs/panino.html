@@ -23,17 +23,18 @@
     <script src="js/main.js" charset="utf-8"></script>
 
   </head>
+
   <body>
     <header>
       <nav class="hamburgher"></nav>
       <div class="logo"><img src="imgs/eat-rock-cafe-brand-small.png" alt=""></div>
     </header>
-    
+
     <main>
-      
+
       <h1>Panino</h1>
       <h3>Completa il tuo panino con l'ingredienti preferiti</h3>
-      
+
       <form class="" action="send.php" method="post">
 
         <div>
@@ -45,9 +46,13 @@
           <label for="piastrato">Piastrato</label>
         </div>
 
-        <p>Consigliamo che i nostri panini vengano serviti a temperatura ambiente per non alterare le caratteristiche e la qualità</p>
-
+        <p>
+          Consigliamo che i nostri panini vengano serviti a temperatura ambiente per non alterare le caratteristiche e la qualità
+        </p>
+        
+        <hr>
         <h2>Carne</h2>
+        <hr>
 
         <h3>Pezzata Rossa</h3>
 
@@ -78,71 +83,124 @@
           <label for="ben_cotta">Ben Cotta</label>
         </div>
 
-        <h2>CONTORNI</h2>
+        <hr>
+        <h2>Contorni</h2>
+        <hr>
 
-        <h3>LE VERDURE</h3>
+        <h3>Le Verdure</h3>
+
           <input type="checkbox" name="verdure" id="insalata">
           <label for="insalata">Insalata (gratis)</label>
+
           <input type="checkbox" name="verdure" id="rucola">
           <label for="rucola">Rucola (gratis)</label>
 
+          <input type="checkbox" name="verdure" id="radicchio">
+          <label for="radicchio">Radicchio</label>
 
+          <input type="checkbox" name="verdure" id="pomodoro">
+          <label for="pomodoro">Pomodoro</label>
 
-Radicchio
-Pomodoro
-Zucchine grigliate
-Peperoni
-Cipolla ramata di Tropea
-Funghi trifolati
-Cetrioli in salamoia aromatica
-Melanzane grigliate
-Parmigiana di melanzane
+          <input type="checkbox" name="verdure" id="zucchine_grigliate">
+          <label for="zucchine_grigliate">Zucchine grigliate</label>
 
-GLI INGREDIENTI SPECIAL
+          <input type="checkbox" name="verdure" id="peperoni">
+          <label for="peperoni">Peperoni</label>
 
-Uova di galline nostrane all’occhio di bue
-Bacon croccante
-Prosciutto cotto DOP
-Prosciutto crudo “Renzini” (Norcia)
-Speck trentino
-Lardo di Nero Calabrese
-Mortadella “Tamburini” (Bologna)
-Pancetta di maialino nero Calabrese
-Mortadella di cinghiale al tartufo “Renzini” (Norcia)
+          <input type="checkbox" name="verdure" id="cipolla_ramata_di_tropea">
+          <label for="cipolla_ramata_di_tropea">Cipolla ramata di Tropea</label>
 
+          <input type="checkbox" name="verdure" id="funghi_trifolati">
+          <label for="funghi_trifolati">Funghi trifolati</label>
 
-formaggi
+          <input type="checkbox" name="verdure" id="cetrioli_in_salamoia">
+          <label for="cetrioli_in_salamoia">Cetrioli in salamoia aromatica</label>
 
-Caciocavallo de “Il Mulino”
-Cheddar Westcombe
-Gorgonzola DOP o IGP
-Taleggio DOP
-Primo Sale de “Il Mulino”
-Mozzarella de “Il Mulino”
+          <input type="checkbox" name="verdure" id="melanzane_grigliate">
+          <label for="melanzane_grigliate">Melanzane grigliate</label>
 
+          <input type="checkbox" name="verdure" id="parmigiana_di_melanzane">
+          <label for="parmigiana_di_melanzane">Parmigiana di melanzane</label>
 
-I SOTT’OLIO
+        <h3>Gli Ingredienti Special</h3>
 
-Melanzane a filetti
-Pomodori secchi
-Carciofini grigliati
+          <input type="checkbox" name="ingr_special" id="uova_all’occhio_di_bue">
+          <label for="uova_all’occhio_di_bue">Uova di galline nostrane all’Occhio di Bue</label>
 
+          <input type="checkbox" name="ingr_special" id="bacon_croccante">
+          <label for="bacon_croccante">Bacon Croccante</label>
 
-Creme e patè
+          <input type="checkbox" name="ingr_special" id="prosc_cotto">
+          <label for="prosc_cotto">Prosciutto Cotto DOP</label>
 
-Crema di noce fatta da noi
-N’duja di Nero Calabrese
+          <input type="checkbox" name="ingr_special" id="prosc_crudo">
+          <label for="prosc_crudo">Prosciutto Crudo “Renzini” (Norcia)</label>
 
-Tutti gli hamburger sono senza glutine,
-senza lattosio, senza addensanti e senza coloranti.
-Prima del servizio si prega di far presente al personale
-di sala eventuali intolleranze e/o allergie.
+          <input type="checkbox" name="ingr_special" id="speck_trentino">
+          <label for="speck_trentino">Speck Trentino</label>
 
+          <input type="checkbox" name="ingr_special" id="lardo_di_nero_calabrese">
+          <label for="lardo_di_nero_calabrese">Lardo di Nero Calabrese</label>
 
+          <input type="checkbox" name="ingr_special" id="mort_tamburini_bologna">
+          <label for="mort_tamburini_bologna">Mortadella “Tamburini” (Bologna)</label>
 
-        <button type="button" name="button">button</button>
+          <input type="checkbox" name="ingr_special" id="pancetta_di_nero_calabrese">
+          <label for="pancetta_di_nero_calabrese">Pancetta di maialino nero Calabrese</label>
+
+          <input type="checkbox" name="ingr_special" id="mort_cinghiale_al_tartufo">
+          <label for="mort_cinghiale_al_tartufo">Mortadella di cinghiale al tartufo “Renzini” (Norcia)</label>
+
+        <h3>Formaggi</h3>
+
+          <input type="checkbox" name="formaggi" id="caciocavallo">
+          <label for="caciocavallo">Caciocavallo de<br>“Il Mulino”</label>
+
+          <input type="checkbox" name="formaggi" id="cheddar">
+          <label for="cheddar">Cheddar Westcombe</label>
+
+          <input type="checkbox" name="formaggi" id="gorgonzola">
+          <label for="gorgonzola">Gorgonzola DOP o IGP</label>
+
+          <input type="checkbox" name="formaggi" id="taleggio">
+          <label for="taleggio">Taleggio DOP</label>
+
+          <input type="checkbox" name="formaggi" id="primo_sale">
+          <label for="primo_sale">Primo Sale de<br>“Il Mulino”</label>
+
+          <input type="checkbox" name="formaggi" id="mozzarella">
+          <label for="mozzarella">Mozzarella de<br>“Il Mulino”</label>
+
+        <h3>I Sott’olio</h3>
+
+          <input type="checkbox" name="sott_olio" id="melanzane_sott_olio">
+          <label for="melanzane_sott_olio">Melanzane a filetti</label>
+
+          <input type="checkbox" name="sott_olio" id="pomodori_secchi">
+          <label for="pomodori_secchi">Pomodori secchi</label>
+
+          <input type="checkbox" name="sott_olio" id="carciofini">
+          <label for="carciofini">Carciofini grigliati</label>
+
+        <h3>Creme e Patè</h3>
+
+          <input type="checkbox" name="creme_e_pate" id="crema_di_noce">
+          <label for="crema_di_noce">Crema di noce fatta da noi</label>
+
+          <input type="checkbox" name="creme_e_pate" id="nduja">
+          <label for="nduja">N’duja di Nero Calabrese</label>
+
+        <p>
+          Tutti gli hamburger sono senza glutine,
+          senza lattosio, senza addensanti e senza coloranti.
+          Prima del servizio si prega di far presente al personale
+          di sala eventuali intolleranze e/o allergie.
+        </p>
+
+        <button class="btn_table" type="button" name="button">Prepara</button>
       </form>
     </main>
     <!-- <script src="js/script.js" charset="utf-8"></script> -->
   </body>
+
 </html>
